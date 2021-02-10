@@ -343,6 +343,375 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Alta del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Creación del usuario en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Control de registro**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios solo podrán registrarse si poseen un perfil de Github o utilizan otro sistemas de control de versiones.              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Modificación del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar el usuario que se guarda en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Baja del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar usuario de la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Inicio de sesión del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Posibilitar el inicio de sesión del usuario en el sitio web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Cerrar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario debe poder salir de su cuenta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Correo de confirmación**         |
+| --------------: | :------------------- |
+| **Descripción** | Una vez se halla completado el formulario de registro de usuario, a este se le enviara un correo de confirmación. En el caso que no haga uso del correo el registro no se hará efectivo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Recuperación de contraseña**         |
+| --------------: | :------------------- |
+| **Descripción** | En el caso de que el usuario halla olvidado su contraseña podrá recuperarla a través de su correo electrónico.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R47**     | **Guía básica**         |
+| --------------: | :------------------- |
+| **Descripción** | Esta guía dispondrá de unos pasos básicos para darle al usuario la información necesaria para hacer uso del sitio web.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R48**     | **Control de acceso**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios no registrados no podrán crear consultas ni responderlas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R49**     | **Crear perfil del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios dispondrán de un perfil al que solo pueden acceder ellos mismo, que mostrara;  su nombre, apellidos, fecha de alta, email, repositorio de Github (o cualquier sistema de control de versiones), prestigio, sexo, avatar y el id del usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Modificar perfil del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán modificar su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Borrar perfil del usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán borrar su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Añadir foto al perfil de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá añadir una foto al perfil del usuario.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R53**     | **Confirmación de borrado**         |
+| --------------: | :------------------- |
+| **Descripción** | Al usuario le deberá aparecer una confirmación antes de borrar completamente su consulta. ¿Estas seguro de borrar su consulta?             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R54**     | **Crear consulta**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá crear una consulta en el foro, que estará formada por; titulo, descripción, fecha de creación, una variable booleana que determinara si esa consulta se ha solucionado o no y el id del usuario que la creó .             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R55**     | **Modificar consulta**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá modificar una consulta ya creada.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Borrar consulta**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede borrar una consulta que halla creado el mismo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Crear respuesta**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá responder a una consulta, esta respuesta está formada por; su contenido, id de la consulta que responde y el id del usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R58**     | **Modificar respuesta**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá modificar una respuesta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R59**     | **Borrar respuesta**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá borrar una respuesta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R60**     | **Crear notificación**         |
+| --------------: | :------------------- |
+| **Descripción** | Cuando un usuario responde una consulta de otro usuario a este se le enviará una notificación, formada por; un mensaje y el id del usuario que la va a recibir.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R61**     | **Modificar notificación**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá modificar la notificación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R62**     | **Borrar notificación**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá borrar la notificación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R63**     | **Incluir componente con Vue.js**         |
+| --------------: | :------------------- |
+| **Descripción** | En la aplicación se incluirá algún componente usando el framework Vue.js             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R64**     | **Incluir el widget WebSocket que incluye la librería PHP Ratchet**         |
+| --------------: | :------------------- |
+| **Descripción** | Para que el usuario reciba las notificaciones en tiempo real.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R65**     | **Añadir imágenes**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede añadir imágenes a sus consultas y a las respuestas de ellas.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R66**     | **Añadir video**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede incluir videos en sus consultas y a las respuestas de las mismas.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R67**     | **Breve encuesta sobre el sitio web.**         |
+| --------------: | :------------------- |
+| **Descripción** | Al finalizar la sesión el usuario le aparecerá una breve encuesta, la cual está destinada a mejorar el sitio web.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R68**     | **El administrador podrá ver a los usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá ver una lista de todos los usuarios registrados en el sitio web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R69**     | **El administrador podrá modificar a los usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá modificar los datos de los usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R70**     | **El administrador podrá borrar a los usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá borrar a los usuarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R71**     | **El administrador podrá borrar consultas**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá borrar consultas que han incluido en el foro los usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R72**     | **El administrador podrá ver las visitas del sitio web**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador dispondrá de un apartado privado con un balance de las visitas que está teniendo su sitio web.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R73**     | **El administrador podrá eliminar respuestas**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá eliminar una respuesta de cualquier usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R74**     | **El administrador podrá borrar un perfil**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá eliminar un perfil de cualquier usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R75**     | **Usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | De los usuarios se almacenará su nickname y contraseña.              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R76**     | **Perfiles**         |
+| --------------: | :------------------- |
+| **Descripción** | De los perfiles se almacenará su nombre, apellidos, fecha de alta, email, repositorio de Github (o cualquier sistema de control de versiones), prestigio, sexo, avatar y el id del usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R77**     | **Consultas**         |
+| --------------: | :------------------- |
+| **Descripción** | De las consultas se almacenará su titulo, descripción, fecha de creación, una variable booleana que determinara si esa consulta se ha solucionado o no y el id del usuario que la creó .             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R78**     | **Respuestas**         |
+| --------------: | :------------------- |
+| **Descripción** | De las respuestas se almacenará su contenido, id de la consulta que responde y el id del usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R79**     | **Notificaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | De las notificaciones se almacenará un mensaje y el id del usuario que la va a recibir.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +755,44 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R39**) Alta del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R40**) Control de registro | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Modificación del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Baja del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R43**) Inicio de sesión del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Cerrar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Correo de confirmación | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Recuperación de contraseña | Opcional | Funcional | Media | v3 | 
+| (**R47**) Guía básica | Opcional | Funcional | Media | v3 | 
+| (**R48**) Control de acceso | Importante | Funcional | Media | v2 | 
+| (**R49**) Crear perfil del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Modificar perfil del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Borrar perfil del usuario | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Añadir foto al perfil de usuario | Opcional | Funcional | Media | v2 | 
+| (**R53**) Confirmación de borrado | Opcional | Funcional | Fácil | v2 | 
+| (**R54**) Crear consulta | Importante | Funcional | Fácil | v1 | 
+| (**R55**) Modificar consulta | Importante | Funcional | Fácil | v1 | 
+| (**R56**) Borrar consulta | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Crear respuesta | Importante | Funcional | Fácil | v1 | 
+| (**R58**) Modificar respuesta | Importante | Funcional | Fácil | v1 | 
+| (**R59**) Borrar respuesta | Importante | Funcional | Fácil | v1 | 
+| (**R60**) Crear notificación | Importante | Funcional | Fácil | v1 | 
+| (**R61**) Modificar notificación | Importante | Funcional | Fácil | v1 | 
+| (**R62**) Borrar notificación | Importante | Funcional | Fácil | v1 | 
+| (**R63**) Incluir componente con Vue.js | Importante | Funcional | Difícil | v3 | 
+| (**R64**) Incluir el widget WebSocket que incluye la librería PHP Ratchet | Opcional | Funcional | Media | v3 | 
+| (**R65**) Añadir imágenes | Opcional | Funcional | Media | v2 | 
+| (**R66**) Añadir video | Opcional | Funcional | Media | v2 | 
+| (**R67**) Breve encuesta sobre el sitio web. | Opcional | Funcional | Media | v3 | 
+| (**R68**) El administrador podrá ver a los usuarios | Importante | Funcional | Fácil | v3 | 
+| (**R69**) El administrador podrá modificar a los usuarios | Importante | Funcional | Fácil | v3 | 
+| (**R70**) El administrador podrá borrar a los usuarios | Importante | Funcional | Fácil | v3 | 
+| (**R71**) El administrador podrá borrar consultas | Importante | Funcional | Fácil | v3 | 
+| (**R72**) El administrador podrá ver las visitas del sitio web | Opcional | Funcional | Media | v3 | 
+| (**R73**) El administrador podrá eliminar respuestas | Importante | Funcional | Fácil | v1 | 
+| (**R74**) El administrador podrá borrar un perfil | Importante | Funcional | Fácil | v1 | 
+| (**R75**) Usuarios | Importante | Información | Fácil | v1 | 
+| (**R76**) Perfiles | Importante | Información | Fácil | v1 | 
+| (**R77**) Consultas | Importante | Información | Fácil | v1 | 
+| (**R78**) Respuestas | Importante | Información | Fácil | v1 | 
+| (**R79**) Notificaciones | Importante | Información | Fácil | v1 | 
