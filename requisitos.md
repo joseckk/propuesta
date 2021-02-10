@@ -669,7 +669,7 @@
 
 | **R75**     | **Usuarios**         |
 | --------------: | :------------------- |
-| **Descripción** | De los usuarios se almacenará su nickname y contraseña.              |
+| **Descripción** | De los usuarios se almacenará su nickname, contraseña y tipo.              |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
